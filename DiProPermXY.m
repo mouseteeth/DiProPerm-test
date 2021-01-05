@@ -51,7 +51,7 @@ function [stat,pval,zscore, L, U] = DiProPermXY(mdata1,mdata2,paramstruct) ;
 %
 %    iper             index for permutation
 %                         1  (default) all permutations
-%                         2  balanced permutationslarge scale generalized problems      
+%                         2  balanced permutations
 %    alpha            use 1-alpha confidence interval for z-score, (default) alpha=0.05         
 %    istat            index for test statistic
 %                         1  2 sample t-statistics
